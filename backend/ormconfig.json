@@ -1,0 +1,15 @@
+
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "pglocal",
+    "password": "1234",
+    "database": "students",
+    "entities": ["dist/entity/*.js"],
+    "migrations": ["dist/migration/*.js"],
+    "cli": {
+      "migrationsDir": "src/migration"
+    }
+  }
+  
